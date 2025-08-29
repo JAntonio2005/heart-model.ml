@@ -3,7 +3,7 @@ name: Build & Push to Docker Hub
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   docker:
